@@ -1,4 +1,4 @@
-package com.navnitraj.dsa.genericlasses;
+package dsa.genericlasses;
 
 public class GenericEmployee {
     private int id;

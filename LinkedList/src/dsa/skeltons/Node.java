@@ -1,4 +1,4 @@
-package com.navnitraj.dsa.skeltons;
+package dsa.skeltons;
 
 public class Node<T> {
     private T data;

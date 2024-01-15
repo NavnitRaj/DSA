@@ -1,5 +1,7 @@
-import com.navnitraj.dsa.CustomLinkedList;
-import com.navnitraj.dsa.genericlasses.GenericEmployee;
+
+
+import dsa.CustomLinkedList;
+import dsa.genericlasses.GenericEmployee;
 
 import java.util.Comparator;
 

@@ -1,6 +1,6 @@
-package com.navnitraj.dsa;
+package dsa;
 
-import com.navnitraj.dsa.skeltons.Node;
+import dsa.skeltons.Node;
 
 import java.util.Comparator;
 
