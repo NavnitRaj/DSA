@@ -1,10 +1,11 @@
 import dsa.algorithm.BubbleSort;
+import dsa.algorithm.SelectionSort;
 import dsa.genericlasses.GenericEmployee;
 
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class BubbleSortMain {
+public class SortMain {
     public static void main(String[] args) {
         GenericEmployee[] arr = {
                 new GenericEmployee(1,"Raj"),
@@ -17,7 +18,7 @@ public class BubbleSortMain {
                 new GenericEmployee(4,"Harshith")
         };
         Arrays.stream(arr).forEach(System.out::println);
-        BubbleSort.bubbleSort(arr, Comparator.comparing(GenericEmployee::getId));
+        SelectionSort.selectionSort(arr, Comparator.comparing(GenericEmployee::getId));
         System.out.println("After Sort");
         Arrays.stream(arr).forEach(System.out::println);
     }
